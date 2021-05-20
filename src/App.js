@@ -5,27 +5,32 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 
 function App() {
   return (
     <div className="App">
-    {/*  <Hello /> 
+    {/*  <Hello /> */}
 
-      <Greet name = "Sandhiya" designation = "Developer"/>
+    {/*}  <Greet name = "Sandhiya" designation = "Developer"/>
         <p>This is a children part</p>
-      <Greet name = "Abhinaya" designation = "house wife"/>
+
+     {/* <Greet name = "Abhinaya" designation = "house wife"/>
       <Greet name = "Abirami" designation = "anaylists">
         <button>submit</button>
       </Greet>
 
       <Welcome name = "Sandhiya" designation = "Developer"/>
       <Welcome name = "Abhinaya" designation = "house wife"/>
-    <Welcome name = "Abirami" designation = "anaylists"/> 
-    
-    <Message /> */}
-    <Counter />
+       <Message /> */}
 
+   {/* <Welcome name = "Abirami" designation = "anaylists"/>  */}
+    
+   {/* <Counter /> */}
+     {/*  <FunctionClick /> */}
+     <ClassClick />
     </div>
   );
 }
