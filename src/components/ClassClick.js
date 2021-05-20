@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export class ClassClick extends Component {
-    clickHandler(){
+    clickHandler() {
         alert("clicked");
         console.log("button clicked")
     }
