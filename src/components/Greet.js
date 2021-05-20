@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Greet = (props) => {
-    console.log(props.name);
+    console.log(props);
+    const {name,designation} = props;
     return(
         <div>
-            <h1>Hello {props.name} as Known as {props.designation}</h1>
+            <h1>Hello {name} as Known as {designation}</h1>
             {props.children}
         </div>
     )
