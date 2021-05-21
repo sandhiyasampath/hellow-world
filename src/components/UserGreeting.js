@@ -5,34 +5,34 @@ export class UserGreeting extends Component {
         super(props)
 
         this.state = {
-            isLoggedin: true
+            isLoggedin: false
         }
     }
 
     render() {
         let message;
-        if(this.state.isLoggedin){
+        if (this.state.isLoggedin) {
             message = <div>Welcome Sandhiya</div>
         }
-        else{
+        else {
             message = <div>Welcome Guest</div>
         }
-        return(
+        return (
             message
         )
 
-       {/*} if (this.state.isLoggedin) {
-            return (<div>Welcome Sandhiya</div>)
-        }
-        else {
-            return (<div>Welcome Guest</div>)
-        }*/}
-        {/* return (
-            <div>
-                <div>Welcome sandhiya</div>
-                <div>Welcome Guest</div>
-            </div>
-       )*/}
+        //  if (this.state.isLoggedin) {
+        //         return (<div>Welcome Sandhiya</div>)
+        //     }
+        //     else {
+        //         return (<div>Welcome Guest</div>)
+        //     }
+        //      return (
+        //         <div>
+        //             <div>Welcome sandhiya</div>
+        //             <div>Welcome Guest</div>
+        //         </div>
+        //    ) 
     }
 }
 
